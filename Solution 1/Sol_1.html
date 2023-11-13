@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body  class="mt-10 px-8 w-full border-4"  >
+    <div class="h-full flex justify-evenly">
+      <div>
+        <div class="text-center">
+          <h1 class="font-semibold text-2xl">Login</h1>
+          <p class="text-slate-500">
+            Enter your credential to access your account
+          </p>
+        </div>
+        <div class="flex justify-center items-center my-4">
+          <button
+            class="border-2 flex py-2  w-full justify-center items-center"
+          >
+            <img
+              class="w-7 h-7 "
+              src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png"
+              alt="google"
+            />Login with Google
+          </button>
+        </div>
+
+        <div class="flex w-full justify-center items-center gap-4 py-4">
+          <div class="w-full h-[0.5px] bg-slate-800"></div>
+          <p>Or</p>
+          <div class="w-full h-[0.5px] bg-slate-800"></div>
+        </div>
+
+        <div class="flex flex-col">
+          <form class=" my-4 w-full" action="login">
+            <label class="text-sm" for="Email">Email Address</label><br />
+            <input
+            
+              class="w-full h-9 rounded-sm border-2"
+              type="text"
+              placeholder="email@gmail.com"
+            />
+          </form>
+
+          <form class=" my-4 w-full" action="login">
+            <label class="text-sm" for="Password"><span>Password</span></label>
+            <a class="float-right text-sm text-blue-700" href="/Sol_1.html"
+              >Forgot Password?</a
+            >
+            <br />
+            <input
+              class="w-full h-9 rounded-sm border-2"
+              type="text"
+              placeholder="Password"
+            />
+          </form>
+          <button
+            class="bg-blue-500 border-2 flex py-2  w-full justify-center items-center"
+          >
+            Login
+          </button>
+          <span class="text-slate-500 text-xs text-center my-2"
+            >Dont have an account?<b class="text-xs font-medium text-black">
+              Register here</b
+            ></span
+          >
+        </div>
+      </div>
+      <img
+        class="float-right max-sm:hidden  flex justify-end "
+        src="https://img.freepik.com/free-photo/young-happy-woman-with-good-idea-sign-white-shirt-full-portrait_186202-4377.jpg?w=360&t=st=1699606557~exp=1699607157~hmac=ec09a26406d67c85599c831e848a4896a3352e23c107696f8a9eec1391692301"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
